@@ -1,0 +1,269 @@
+/* CSS Document */
+/*  css pro jednotlive moduly*/
+
+#anketa  {
+border:0px blue solid;
+width:98%;
+float:left;
+clear:both;
+margin: 0 0  30px 0;
+}
+#anketa_ram  {
+border:0px solid #777;
+width:88%;
+float:left;
+clear:both;
+margin: 0 0  30px 20px;
+}
+#anketa {
+margin: 0 0 0 0px;
+font-weight: bold;
+font-size: 14px;
+}
+#anketa ul li{
+list-style-type: none;
+
+padding: 0;
+margin-bottom: 1px; /*spodni prostor mezi each UL a rest spojeni*/
+}
+#anketa  li{
+margin: 0 0  30px 0;
+padding: 0 0 0 10px;
+border:0px solid blue;
+list-style-type: none;
+padding-bottom: 2px;
+}
+.anketa_odpoved  {
+margin: 0 0 0 0px;
+font-size: 11px;color:#777
+}
+.anketa_celkem  {
+margin: 0 0 20px 0px;
+padding: 0 0 10px 0;
+font-size: 11px;
+border-bottom: 1px solid #777;
+clear:both;
+}
+
+.anketa_clear  {
+margin: 0px;
+
+}
+#anketa img {
+border:none;
+float:left;
+margin:0px;
+}
+
+/** promo **/
+
+
+.promoprava  {
+float:left;
+clear:both;
+border:0px blue solid;
+width:98%;
+}
+.promoleva  {
+float:left;
+clear:both;
+border:0px blue solid;
+width:98%;
+}
+
+.promoprava, .promoleva {; 
+	background-color: transparent;	
+	margin:1px 0 1px 0;
+	padding: 10px 0 0 5px;
+}
+
+.promopravaimg img,  .promolevaimg img {
+border:2px solid #333;
+}
+
+.promopravaimg {
+border:0px solid red;
+margin:10px 10px 10px 10px;
+padding:2px;
+float:right;
+clear:both;
+}
+.promolevaimg {
+border:0px solid blue;
+margin:10px 10px 10px 10px;
+padding:2px;
+float:left;
+clear:both;
+}
+
+
+.promoprava p, h1, sapn{; 
+	background-color: transparent;	
+	margin:1px 0 1px 0;
+	padding: 0px 0 0 5px;
+}
+
+.promoleva p, h1, span {; 
+	background-color: transparent;	
+	margin:1px 0 1px 0;
+	padding: 0px 0 0 5px;
+}
+ 
+  
+
+
+/*------------- LISTOVANI ----------------------*/
+.listovani{
+float:right;
+margin: 10px  0 20px 0;
+border-top:1px #dddddd solid;
+width:98%;
+}
+ 
+
+
+
+/*------------- kontaktni formular----------------------*/
+.form{
+border: 0px solid #333333;
+background: transparent;
+float:left;
+}
+
+.inp-text{
+  border: 1px solid #333333;
+  background: #eaeaea url("img/grain_dark.gif") repeat 0% 0% ;  
+	margin: 0 5px 0px 12px;
+	padding:5px 0 0 5px;
+	width: 200px;
+	height:20px;
+	
+}
+.inp-text_chyba{
+  border: 1px solid #990000;
+  background: #eaeaea url("img/grain_dark.gif") repeat 0% 0% ; 
+	margin: 0 5px 0px 12px;
+	padding:5px 0 0 5px;
+	width: 200px;
+	height:20px;
+}
+.area-text_chyba{
+  border: 1px solid #990000;
+ background: #eaeaea url("img/grain_dark.gif") repeat 0% 0% ; 
+	margin: 0 5px 0px 12px;
+	padding:5px 0 0 5px;
+	width: 400px;
+	height:150px;
+
+}
+.area-text{
+  border: 1px solid #333333;
+  background: #eaeaea url("img/grain_dark.gif") repeat 0% 0% ; 
+	margin: 0 5px 0px 12px;
+	padding:5px 0 0 5px;
+	width: 400px;
+	height:150px;
+
+}
+
+.answer_chyba{
+  border: 1px solid #990000;
+  background: #eaeaea url("img/grain_dark.gif") repeat 0% 0% ; 
+	margin: 0 5px 0px 12px;
+	padding:5px 0 0 5px;
+	width: 50px;
+	height:20px;
+}
+
+.answer{
+  border: 1px solid #333333;
+  background: #eaeaea url("img/grain_dark.gif") repeat 0% 0% ; 
+	margin: 0 5px 0px 12px;
+	padding:5px 0 0 5px;
+	width: 50px;
+	height:20px;
+}
+.submit-text{
+  border: 0px solid #990000;
+  background: #333333 ; 
+	margin: 0 5px 0px 12px;
+	padding:5px 0 0 5px;
+	color:#c1c1c1;
+	width: 100px;
+	height:30px;
+}
+
+.left-box {
+ border: 0px solid #990000;
+ float:left;
+}
+.left-box img {
+border:2px solid silver;
+float:left;
+margin:5px 5px 5px 25px;
+}
+
+label{color:#777;
+font-size:10px;
+text-align:left;
+float:right;
+}
+
+
+
+
+
+/*------------------ GALERIE -----------------*/
+.gallery {
+width: 99%;
+margin: 0px 0 34px 0;
+border:0px solid #DB7417;
+padding: 10px 0 10px 10px;
+float:left;
+}
+
+.photo {
+float: left;
+display: inline;
+width: 170px;
+height: 190px;
+overflow: auto;
+position: relative;
+margin-right: 2px;
+margin-left:2px;
+margin-bottom:15px;
+border: 0px solid #ddd;
+}
+
+.photo img {
+border: 0px solid #DB7417;
+}
+
+.photo a img {
+margin: 5px 5px 5px 5px;
+border: 5px solid #DB7417;
+}
+
+.photo a:hover img {
+border: 5px solid #262626;
+}
+
+.photo p {
+margin: 2px 0 0 2px;
+line-height: 1;
+color: #669900;
+font-weight: bold;
+background-color: transparent;
+border: 0px solid #000000;
+float: left;
+padding: 3px 5px;
+}
+
+.photo p, .photo p a, .photo p a:visited {
+color: #669900;
+text-decoration: none;
+font-weight: normal;
+}
+
+
+

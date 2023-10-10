@@ -1,0 +1,8 @@
+V SOUBORU ADMIN
+řádek 592 - tabulak3 *** vloženo else 
+V SOUBORU WEB-ANKETA-RAVIS.PHP
+řadek 185-191 *** uprava hodnot varchar na 200 $rvs_anketa_dotaz_table
+řadek 206 *** uprava hodnot varchar na 200 $rvs_anketa_vysledky_table 
+
+-------------
+řadek 250,256 opravena chyba nebyly uvedene vsechny tabulky pro vymazani pri odinstalaci

@@ -1,0 +1,5 @@
+# Pøepis z /index.php?stranka=novinky na /novinky.html
+RewriteEngine on
+Options +FollowSymlinks
+RewriteCond %{REQUEST_URI} ^(.*).html
+RewriteRule ^(.*).html index.php?side=$1 [nc,L,QSA]

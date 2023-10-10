@@ -1,0 +1,5 @@
+RewriteEngine On
+#RewriteBase /adresar
+RewriteCond %{QUERY_STRING} ^akc=([^&]+)$
+RewriteRule ^index\.php$ %1.html? [R=301,L]
+RewriteRule ^([^/]+)\.html index.php?rw=1&page=$1 [L,QSA]

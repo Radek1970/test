@@ -1,0 +1,503 @@
+/* CSS Document */
+
+.promoprava  {
+float:left;
+clear:both;
+border:0px blue solid;
+width:98%;
+}
+.promoprava img {
+border:2px solid silver;
+margin:10px 10px 10px 10px;
+padding:2px;
+float:right;
+
+}
+.promoprava h2 {
+float:left;
+clear:both;
+border:0px blue solid;
+width:100%;
+}
+.promoprava q {
+float:left;
+clear:both;
+border:0px red solid;
+width:100%;
+text-align:right;
+}
+
+
+.promoleva  {
+float:left;
+clear:both;
+border:0px blue solid;
+width:98%;
+}
+.promoleva img {
+border:2px solid silver;
+margin:10px 10px 10px 10px;
+padding:2px;
+float:left;
+
+}
+.promoleva h2 {
+float:left;
+clear:both;
+border:0px blue solid;
+width:100%;
+}
+.promoleva q {
+float:left;
+clear:both;
+border:0px red solid;
+width:100%;
+text-align:left;
+}
+
+
+
+
+/* Image gallery */
+.gallery_admin_menu {
+width :692px;
+height:30px;
+background: #262626 url(images/bg_tab_top.png) no-repeat 0% 0%;
+margin : 0px 0 0px 0; 
+padding: 5px 0 0 0 ; 
+border : 0px solid red;
+float:left;
+}
+.gallery_admin_menu_green {
+width :692px;
+height:30px;
+background: #00cc00 url(images/bg_tab_top_green.png) no-repeat 0% 0%;
+margin : 0px 0 0px 0; 
+padding: 5px 0 0 0 ; 
+border : 0px solid red;
+float:left;
+}
+.gallery_admin_menu_vlozeni {
+width :692px;
+height:30px;
+background: #ffcc00 url(images/bg_tab_top_red.png) no-repeat 0% 0%;
+margin : 0px 0 0px 0; 
+padding: 5px 0 0 0 ; 
+border : 0px solid red;
+float:left;
+}
+.gallery {
+width: 690px;
+margin: 0px 0 34px 0;
+border:1px solid #DB7417;
+padding: 10px 0 10px 0;
+float:left;
+}
+
+.photo {
+float: left;
+display: inline;
+width: 195px;
+height: 230px;
+overflow: auto;
+position: relative;
+margin-right: 10px;
+margin-left:20px;
+margin-bottom:15px;
+border: 1px solid #ddd;
+}
+
+.photo a img {
+margin: 5px 5px 5px 15px;
+border: 5px solid #DB7417;
+}
+
+.photo a:hover img {
+border: 5px solid #262626;
+}
+
+.photo p {
+margin: 2px 0 0 2px;
+line-height: 1;
+color: red;
+font-weight: bold;
+background-color: transparent;
+border: 0px solid #000000;
+float: left;
+padding: 3px 5px;
+}
+
+.photo p, .photo p a, .photo p a:visited {
+color: red;
+text-decoration: none;
+font-weight: normal;
+
+
+
+
+
+}
+
+.nazev_fota p {
+border-top: 1px dotted #DB7417;
+width: 165px;
+height: 20px;
+display: block;
+text-align:left;
+color:#777;
+}
+
+
+
+
+
+
+
+
+.tab_admin_menuB {
+width :692px;
+height:30px;
+background: #262626 url(images/bg_tab_top2.png) no-repeat 0% 0%;
+margin : 0px 0 0px 0; 
+padding: 5px 0 0 0 ; 
+border : 0px solid red;
+float:left;
+}
+.tab_admin_menuB2 {
+width : 692px;
+height:30px;
+background: transparent url(images/bg_tab_bottom2.png) no-repeat 0% 100%;
+margin : 0px 0 0px 0; 
+padding: 10px 0 0 0 ; 
+border : 0px solid red;
+float:left;
+}
+
+
+.tab_admin_menu {
+width :692px;
+height:30px;
+background: #262626 url(images/bg_tab_top.png) no-repeat 0% 0%;
+margin : 0px 0 0px 0; 
+padding: 5px 0 0 0 ; 
+border : 0px solid red;
+float:left;
+}
+.tab_admin_menu2 {
+width : 692px;
+height:30px;
+background: transparent url(images/bg_tab_bottom.png) no-repeat 0% 100%;
+margin : 0px 0 0px 0; 
+padding: 10px 0 0 0 ; 
+border : 0px solid red;
+float:left;
+}
+
+.tab_admin_pole {
+width : 700px;
+margin : 0px 0 0px 0; 
+padding: 0 ; 
+border : 0px solid #DB7417;
+float:left;
+}
+
+
+
+
+.tab_admin {
+background :transparent ;
+width : 690px;
+margin : 0 0 0px 0; 
+padding: 0 ; 
+border-left : 1px solid #E57614;
+border-right : 1px solid #E57614;
+border-bottom : 1px solid #E57614;
+float:left;
+}
+
+
+
+
+
+.tab_1 {
+background :transparent ;
+width : 20px;
+margin : 0 auto; 
+padding: 3px 3px 10px 5px ;  
+border : 0px solid #ddd;
+float:left; 
+}
+.tab_2 {
+background :transparent ;
+width : 320px;
+margin : 0 auto; 
+padding: 3px 3px 3px 5px ; 
+border : 0px solid #8F7766;
+float:left; 
+}
+.tab_2 span {
+color :#a0a0a0;
+}
+.tab_2 p{
+font-size:11px;
+text-align:justify;
+padding:2px;
+margin:0px;
+}
+
+
+.tab_3 {
+background :transparent ;
+width : 70px;
+margin : 0 auto; 
+padding: 6px 3px 10px 5px ;  
+border : 0px solid #ddd;
+float:left; 
+}
+.tab_3 a
+{ 
+text-decoration:none;
+}
+.tab_4 {
+background :transparent ;
+width : 60px;
+margin : 0 auto; 
+padding: 6px 3px 10px 5px ;  
+border : 0px solid #ddd;
+float:left; 
+}
+.tab_4 a
+{ 
+text-decoration:none;
+}
+.tab_5 {
+background :transparent ;
+width : 150px;
+margin : 0 auto; 
+padding: 4px 3px 10px 5px ;  
+border : 0px solid red;
+float:left; 
+}
+.tab_5 a
+{ 
+text-decoration:none;
+}
+.tab_5 img
+{ 
+text-decoration:none;
+border:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.edit
+{
+background :transparent url(images/adminicons/edit.png) no-repeat 0% 50%;
+width : 70px;
+height: 15px;
+margin : 0 auto; 
+padding: 1px 0 4px 0 ; 
+border : 0px solid #182C33;
+float:left; 
+cursor:pointer;
+text-align:right;
+color:#182C33;
+}
+
+.detail
+{
+background :transparent url(images/adminicons/search.png) no-repeat 0% 50%;
+width : 60px;
+height: 15px;
+margin : 0 auto; 
+padding: 1px 0 4px 0 ; 
+border : 0px solid #182C33;
+float:left; 
+cursor:pointer;
+text-align:right;
+color:#182C33;
+}
+.detail_small
+{
+background :transparent ;
+margin : 0 auto; 
+padding: 1px 0 4px 0 ; 
+border : 0px solid #182C33;
+float:left; 
+text-decoration:none;
+cursor:pointer;
+text-align:right;
+color:#182C33;
+}
+#all
+{ 
+background :transparent url(images/adminicons/delet_Yes.png) no-repeat 5% 10%;
+width : 120px;
+height:22px;
+margin : 0 auto; 
+padding: 0 0 0 30px ; 
+border : 0px solid #D9240B;
+float:left; 
+cursor:pointer;
+text-align:center;
+font-weight:normal;
+color:#ffffff;
+}
+#del
+{ 
+background :transparent url(images/adminicons/delet_No.png) no-repeat 10% 10%;
+width : 110px;
+height:22px;
+margin : 0 auto; 
+padding: 0 0 0 8px ; 
+border : 0px solid #0F71BC;
+float:left; 
+cursor:pointer;
+text-align:center;
+font-weight:normal;
+color:#ffffff;
+}
+.listovani {
+margin : 10px 10px 10px 5px; 
+padding: 0 ; 
+color:#6FB604;
+border-bottom : 0px solid #ddd;
+clear:both;
+}
+
+
+
+.insert
+{ 
+background :transparent url(images/save.png) no-repeat 0% 10%;
+width :100px;
+height:22px;
+margin : 0 auto; 
+padding: 3px 0 0 25px ; 
+border : 0px solid #DCD19D;
+float:left; 
+cursor:pointer;
+font-weight:normal;
+color:#ffffff;
+text-decoration:none;
+}
+.insert_foto
+{ 
+background :transparent url(images/fotoaparat.png) no-repeat 0% 10%;
+width :70px;
+height:22px;
+margin : 0 auto; 
+padding: 3px 0 0 27px ; 
+border : 0px solid #DCD19D;
+float:left; 
+cursor:pointer;
+font-weight:normal;
+color:#ffffff;
+text-decoration:none;
+}
+
+
+#del_komplet_button
+{ 
+background :transparent url(images/adminicons/delete.png) no-repeat 0% 10%;
+width : 210px;
+height:25px;
+margin : 0 auto; 
+padding: 0 0 0 5px ; 
+border : 0px solid #182C33;
+float:left; 
+cursor:pointer;
+text-align:center;
+color:#ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tab_obsah_popis p {margin : 5px 0 0px 10px; }
+.tab_obsah_popis {
+
+background: #375A8C url(images/bg_tab_top.png) no-repeat 0% 0%;
+border : 0px solid #375A8C;
+width : 692px;
+height:35px;
+color: #ffffff;
+font-weight:bold;
+margin : 30px 0 0px 0; 
+padding: 0px 0 0 0px ; 
+float:left;
+}
+.tab_obsah {
+background :transparent ;
+width : 690px;
+margin : 0 0 0px 0; 
+padding: 0 ; 
+border-left : 1px solid #E57614;
+border-right : 1px solid #E57614;
+border-bottom : 1px solid #E57614;
+float:left;
+}
+.tab_obsah1 {
+background :transparent ;
+width : 300px;
+height:20px;
+margin : 0 0 0px 0; 
+padding: 5px ; 
+border : 0px solid #ddd;
+float:left;
+}
+.tab_obsah1 a{
+color:#375A8C;
+font-weight:bold;
+text-decoration:none;
+}
+
+.tab_obsah2 {
+background:transparent url(images/bullet.gif) no-repeat 50% 50%;
+width : 20px;
+height:20px;
+margin : 0 0 0px 0; 
+padding: 5px ; 
+border : 0px solid #ddd;
+float:left;
+}
+.tab_obsah3 {
+background :transparent ;
+width : 50px;
+height:20px;
+margin : 0 0 0px 0; 
+padding: 5px ; 
+border : 0px solid #ddd;
+float:left;
+}
+.tab_obsah3 a{
+color:#375A8C;
+font-weight:bold;
+text-decoration:none;
+}
+
+
+
+
+
+
+

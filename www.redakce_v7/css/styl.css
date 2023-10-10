@@ -1,0 +1,277 @@
+/* CSS Document */
+
+
+html{margin: 0; padding: 0;}
+img {border:none;}
+body{
+	background: #ddd ;
+	text-align: center;
+	padding-top:50px;
+	padding-bottom:50px;
+	margin:auto;
+	}
+
+#container{
+	border: 1px solid #CCB;
+	background : #ffffff; 
+	margin: auto;
+	width: 880px;
+	text-align:left;
+}
+
+#zahlavi{
+  border: 0px solid blue;
+  background: #000000 url("img/top.jpg") no-repeat 0% 0% ; 
+	margin: auto;
+	width: 880px;
+	height:76px;
+}
+
+#slogan h1{border-bottom:0px solid #828282;
+  color:#ffffff;
+  background: transparent  ; 
+	margin: 0;
+	width: 335px;
+	height:36px;
+	float:left;
+	margin: 10px  40px 0 40px;
+	font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 26px; margin-top: .5em; color: #fff;
+  font-weight:bold;
+
+}
+
+#slogan_text{
+  border: 0px solid blue;
+  background: transparent; 
+	margin: 0;
+	padding:5px 0 0 0;
+	width: 450px;
+	height:70px;
+	float:right;
+	color:#ffffff;
+	font-size: 12px;
+  letter-spacing: 5px;	
+}
+
+#banner{
+  border: 0px solid red;
+  background: url("img/banner3pension.jpg") no-repeat 0% 0% ; 
+	margin: auto;
+	width: 880px;
+	height:208px;
+}
+#banner_text_l{
+  border: 0px solid blue;
+  background: transparent; 
+	margin: 0;
+	width: 500px;
+	height:202px;
+	float:left;
+}
+#banner_text_p{
+  border: 0px solid red;
+  background: transparent ; 
+	margin: 0;
+	width: 380px;
+	height:202px;
+	float:left;	
+}
+#banner_text_p_slogan{
+  border: 0px solid #ddd;
+  background: transparent ; 
+	margin: 20px 10px 10px 100px;
+	color: #707070;
+	font-size: 12px;
+  letter-spacing: 8px;	
+}
+
+#banner_text_l_slogan{
+  border: 0px solid red;
+  background: transparent ; 
+	margin: 115px 10px 10px 255px;
+	color: #fff;
+	font-size: 12px;
+  letter-spacing: 5px;	
+}
+
+
+
+
+
+
+/*nazev stranky*/
+#nazev_str  {
+  border: 0px solid red;
+  margin: 0;
+  height:30px;
+  padding: 0px;
+	width: 800px;
+  font-family: Gill Sans, Verdana;
+	font-size: 14px;
+	line-height: 14px;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	font-weight: bold;
+  color:#cc0000;}
+#nazev_str h1  {padding: 0 0 0 20px;}
+
+
+/* obsah */
+#obsah{
+  border: 0px solid red;
+  background: #ffffff ; 
+	margin: 0;
+	width: 880px;
+	/*height:506px;*/
+}
+#obsah_end{
+  border: 0px solid #CCB;
+  background: transparent ; 
+	margin: 0;
+	width: 880px;
+	height:1px;
+	clear:both;
+}
+
+/* hlavni obsah*/
+#obsah_hlavni{
+  border: 0px solid #CCB;
+  background: transparent; 
+	margin: 0;
+	padding: 0 10px 10px 10px;
+	width: 560px;
+	float:left;
+}
+
+
+#obsah_hlavni h1, h2, h3, h4{
+color:#555}
+#obsah_hlavni p, span {
+color:#555;
+}
+
+
+/* bocni obsah*/
+#obsah_bok{
+  border: 0px solid #CCB;
+  background:transparent ; 
+	margin: 0 0 30px 0;
+	width: 290px;
+	float:right;
+	color:#666;
+}
+#obsah_bok  h1{
+margin: 5px 25px 5px 25px; color: #666; line-height: 23px; font-family: arial,helvetica,sans-serif;}
+#obsah_bok  p {
+margin: 5px 25px 5px 25px; color: #666; line-height: 23px; font-family: arial,helvetica,sans-serif;}
+
+
+/* bocni obsah v boxu - obsah box */	
+
+.nadpis_box{
+ background:#000000 url("img/bg_nadpis.jpg") no-repeat 50% 50%;
+ width: 260px;
+ height:40px;
+ margin: 0px 0px 0 20px;
+ border: 0px solid red;
+ float:left;
+}
+.nadpis_box h3 {
+ margin: 10px 0 0 20px; 
+ font-weight: normal; 
+ color: #ddd;
+ border: 0px solid blue;
+ float:left
+}
+
+.obsah_box{
+ background: transparent url("img/bg_form_body.jpg") repeat-y 50% 50% ;
+ padding: 0;
+ width: 260px;
+ margin: 0px 0px 0 20px;
+ border: 0px solid blue;
+ color: #666;
+ float:left
+}
+.obsah_box p {
+margin: 5px;
+font-size: 13px; color: #666; line-height: 23px; font-family: arial,helvetica,sans-serif;
+}
+
+.obsah_box_pata{
+ background: transparent url("img/bg_form_pata.jpg") repeat-y 50% 50% ;
+ padding: 0;
+ width: 260px;
+ height:37px;
+ margin: 0px 0px 19px 20px;
+ border: 0px solid red;
+ float:left
+}
+
+
+
+
+/* pata */
+#pata{
+  border: 0px solid #CCB;
+  background: #888888 ; 
+	margin: 0;
+	width: 880px;
+	height:50px;
+}
+#pata_signo{
+  border: 0px solid red;
+  background: #ddd ; 
+	margin: 5px 0 0 0;
+	width: 280px;
+	height:30px;
+	float:right;
+	font-size:10px;
+}
+
+
+/*menu*/
+.arrowlistmenu{
+width: 230px; /*width of menu*/
+}
+
+.arrowlistmenu ul{
+list-style-type: none;
+margin: 0 0 0 20px;
+padding: 0;
+margin-bottom: 8px; /*bottom spacing between each UL and rest of content*/
+}
+
+.arrowlistmenu ul li{
+padding-bottom: 2px; /*bottom spacing between menu items*/
+}
+
+.arrowlistmenu ul li a{
+color: #A70303;
+background: url(images/arrowbullet.png) no-repeat center left; /*custom bullet list image*/
+display: block;
+padding: 2px 0;
+padding-left: 19px; /*link text is indented 19px*/
+text-decoration: none;
+font-weight: bold;
+border-bottom: 1px solid #dadada;
+font-size: 90%;
+}
+
+.arrowlistmenu ul li a:visited{
+color: #A70303;
+}
+
+.arrowlistmenu ul li a:hover{ /*hover state CSS*/
+color: #777;
+background-color: transparent;
+}
+
+
+
+
+
+
+
+

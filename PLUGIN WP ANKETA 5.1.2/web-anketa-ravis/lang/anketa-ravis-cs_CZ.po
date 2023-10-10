@@ -1,0 +1,84 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: anketa-ravis\n"
+"POT-Creation-Date: 2019-01-12 11:09+0100\n"
+"PO-Revision-Date: 2019-01-12 11:11+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e\n"
+"X-Poedit-SearchPath-0: lang\n"
+"X-Poedit-SearchPath-1: includes/core.php\n"
+"X-Poedit-SearchPath-2: includes/admin.php\n"
+
+#: includes/core.php:26
+msgid "Settings"
+msgstr "Nastavení"
+
+#: includes/core.php:41
+msgid "Base settings."
+msgstr "Základní nastavení."
+
+#: includes/core.php:46
+msgid "User settings."
+msgstr "Uživatelské nastavení."
+
+#: includes/core.php:79
+msgid "The required setting has been made."
+msgstr "Bylo provedeno požadované nastavení."
+
+#: includes/core.php:139
+msgid "Do not show a graph."
+msgstr "Nezobrazovat graf."
+
+#: includes/core.php:140
+msgid "Do not show a graphic line in the survey."
+msgstr "Nezobrazovat grafickou čáru v anketě."
+
+#: includes/core.php:143
+msgid "Show votes in counts."
+msgstr "Zobrazovat hlasováni v počtech."
+
+#: includes/core.php:144
+msgid "In the poll show the vote of the individual answers in the number of voters."
+msgstr "V anketě zobrazit hlasovaní jednotlivých odpovědí v počtu hlasujících."
+
+#: includes/core.php:147
+msgid "Show total votes."
+msgstr "Zobrazit celkový počet hlasujících."
+
+#: includes/core.php:148
+msgid "Show the total number of votes in the survey."
+msgstr "Zobrazit v anketě celkový počet hlasujících."
+
+#: includes/core.php:151
+msgid "Time limit for next votes, unlimited (in time)."
+msgstr "Časový limit hlasování,  bez omezení."
+
+#: includes/core.php:152
+msgid "Time limit for next votes, once a hour."
+msgstr "Časový limit hlasování, jednou za hodinu."
+
+#: includes/core.php:153
+msgid "Time limit for next votes, once of day."
+msgstr "Časový limit  hlasování, jednou denně."
+
+#: includes/core.php:154
+msgid "Time limit for re-voting a visitor from one IP address."
+msgstr "Časový limit pro opětovné hlasování návštěvníka z jedné IP adresy."
+
+#: includes/core.php:165
+msgid "Update settings"
+msgstr "Aktualizovat nastavení"
+
+#~ msgid "Some text to translate and display."
+#~ msgstr "Nějaký text, který se má přeložit a zobrazit."
+
+#~ msgid "submit"
+#~ msgstr "odeslat"
