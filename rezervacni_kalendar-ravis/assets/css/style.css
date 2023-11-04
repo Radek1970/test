@@ -1,0 +1,335 @@
+/* CSS Document */
+
+.telo {
+  border: 0px solid red;
+  margin: 10px 10px 0 0;
+  background: transparent;
+  width: 98%;
+}
+
+.titul {
+  color: rgb(0, 153, 204);
+  background: rgb(223, 223, 223);
+  border-left: 4px solid rgb(0, 153, 204);
+  padding: 10px 5px 10px 5px;
+  margin: 10px 15px 0 15px;
+  font-size: 19px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  border: 1px solid transparent;
+  margin: 0;
+  width: 100%;
+}
+
+.after-box {
+  border-top: 1px solid #E1E1E1;
+  margin: 10px 15px 0 15px;
+}
+
+
+/***************/
+.warningRVS {
+  float: left;
+  width: 46%;
+  margin: 10px 0px 0 15px;
+  padding: 10px 5px 10px 20px;
+
+  border-right: 1px solid #E1E1E1;
+  border-top: 1px solid #E1E1E1;
+  border-bottom: 1px solid #E1E1E1;
+  border-left: 4px solid #464646;
+  color: #ffffff;
+  background: #f50202;
+}
+.infoRVS {
+  float: left;
+  width: 46%;
+  margin: 10px 0px 0 15px;
+  padding: 10px 5px 10px 20px;
+
+  border-right: 1px solid #E1E1E1;
+  border-top: 1px solid #E1E1E1;
+  border-bottom: 1px solid #E1E1E1;
+  border-left: 4px solid #464646;
+  color: #ffffff;
+  background: #0253f5;
+}
+
+.info-panel-blue {
+  float: left;
+  width: 46%;
+  margin: 10px 0px 0 15px;
+  padding: 10px 5px 10px 20px;
+
+  border-right: 1px solid #E1E1E1;
+  border-top: 1px solid #E1E1E1;
+  border-bottom: 1px solid #E1E1E1;
+  border-left: 4px solid #005fcc;
+
+  background: #F8F8F8;
+}
+
+.info-panel-red {
+  float: left;
+  width: 46%;
+  margin: 10px 0px 0 15px;
+  padding: 10px 5px 10px 20px;
+
+  border-right: 1px solid #E1E1E1;
+  border-top: 1px solid #E1E1E1;
+  border-bottom: 1px solid #E1E1E1;
+  border-left: 4px solid #cc0000;
+
+  background: #F8F8F8;
+}
+
+.info-panel-grey {
+  float: left;
+  width: 46%;
+  margin: 10px 0px 0 15px;
+  padding: 10px 5px 10px 20px;
+
+  border-right: 1px solid #E1E1E1;
+  border-top: 1px solid #E1E1E1;
+  border-bottom: 1px solid #E1E1E1;
+  border-left: 4px solid #636465;
+
+  background: #F8F8F8;
+}
+
+.box0 {
+  float: left;
+  width: 97%;
+  margin: 10px 0 0 15px;
+  padding: 5px 8px 15px 0;
+  border: 1px solid #E1E1E1;
+  background: #F8F8F8;
+}
+
+.box00 {
+  float: left;
+  width: 97%;
+  margin: 10px 0 0 15px;
+  padding: 5px 8px 15px 0;
+  border: 0px solid #E1E1E1;
+  background: transparent;
+}
+
+.box1 {
+  float: left;
+  width: 46%;
+  margin: 10px 0 0 15px;
+  padding: 5px 5px 15px 23px;
+  border: 1px solid #E1E1E1;
+  background: #F8F8F8;
+}
+
+.box2 {
+  float: left;
+  width: 46%;
+  margin: 10px 0px 0 15px;
+  padding: 5px 5px 15px 23px;
+  border: 1px solid #E1E1E1;
+  background: #F8F8F8;
+}
+
+.box3 {
+  float: left;
+  width: 46%;
+  margin: 10px 0px 0 15px;
+  padding: 5px 5px 15px 3px;
+  border: 1px solid #E1E1E1;
+  background: #F8F8F8;
+}
+
+.widget-active-info-panel {
+  float: left;
+  width: 46%;
+  margin: 10px 0px 0 15px;
+  padding: 10px 5px 10px 20px;
+
+  border-right: 1px solid #E1E1E1;
+  border-top: 1px solid #E1E1E1;
+  border-bottom: 1px solid #E1E1E1;
+  border-left: 4px solid rgb(0, 204, 0);
+
+  background: #F8F8F8;
+}
+
+.widget-unactive-info-panel {
+  float: left;
+  width: 46%;
+  margin: 10px 0px 0 15px;
+  padding: 10px 5px 10px 20px;
+
+  border-right: 1px solid #E1E1E1;
+  border-top: 1px solid #E1E1E1;
+  border-bottom: 1px solid #E1E1E1;
+  border-left: 4px solid rgb(204, 0, 0);
+
+  background: #F8F8F8;
+}
+
+/***************/
+
+
+
+
+.blok-table {
+  color: #272727;
+  background: #F8F8F8;
+  border: 1px solid #E1E1E1;
+  padding: 1px 5px 1px 5px;
+  margin: 10px 15px 0 15px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.blok-table h2,
+h3,
+h4 {
+  color: rgb(52, 52, 52);
+  font-size: 14px;
+  margin: 0 0 10px 20px;
+}
+
+.blok-table p {
+  color: rgb(52, 52, 52);
+  font-size: 11px;
+  margin: 0 0 5px 20px;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.velke-pismo {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+
+/***************/
+
+
+.textarea2 {
+  box-sizing: border-box;
+  background-color: transparent;
+  font-size: 11px;
+}
+
+.styl-textarea {
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+.input[type=text] {
+  width: 50%;
+  padding: 5px 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+.input2[type=text] {
+  width: 100%;
+  font-size: 11px;
+  padding: 5px;
+  margin: 5px;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+/* TABULKY */
+
+.table {
+  border: solid rgba(0, 0, 0, 0.25);
+  ;
+
+  font-size: 11px;
+  background-color: transparent;
+  padding: 2px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-width: 1px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.table caption,
+.table th {
+  font-weight: 400;
+  text-align: left;
+}
+
+.table th {
+  text-transform: uppercase;
+}
+
+.table td,
+.table th {
+  padding: 8px;
+  border-left: solid 1px;
+  border-bottom: solid 1px;
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+/* hlava tabulky*/
+.table table,
+.table thead {
+  border-bottom: solid 2px;
+  background-color: rgb(149, 149, 149);
+}
+
+.table table,
+.table thead,
+.table th {
+  color: #151515;
+}
+
+.table table,
+.table tfoot {
+  border-top: solid 2px;
+}
+
+/* telo tabulky*/
+.table table,
+.table tbody,
+.table tr {
+  border-color: rgba(0, 0, 0, 0.25);
+  font-size: 11px;
+}
+
+.table table,
+.table tbody,
+.table tr:nth-child(2n + 1) {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table table,
+.table th {
+  color: #555555;
+}
+
+.table table,
+.table thead {
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+/* pata tabulky*/
+.table table,
+.table tfoot {
+  border-top-color: rgba(0, 0, 0, 0.25);
+}
+
+.table table.alt,
+.table tbody,
+.table tr,
+.table td {
+  border-color: rgba(0, 0, 0, 0.25);
+}
