@@ -41,13 +41,7 @@ class GoogleRecaptcha {
         }
     }
 
-    // Pevně definované klíče
-    // private $siteKey = '6LeIZbYqAAAAAIZRKwra7MEjtBk73Ua_YMdJwOXT'; // veřejný klíč
-    // private $secretKey = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'; // tajný klíč 
-
-    //private $siteKey = '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI'; // veřejný klíč - testovací klíče | 6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI
-    //private $secretKey = '*****************************************; // tajný klíč - testovací klíče | 6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe
-
+  
 
     private $apiUrl = 'https://www.google.com/recaptcha/api/siteverify';
 
