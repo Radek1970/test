@@ -1,0 +1,153 @@
+/* Importování Google Fonts pro Material Icons */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/* Příklad použití Material Icons ve vašem CSS */
+.material-icons.md-18 { font-size: 18px; color:#1abc9c; margin-right: 5px;}
+.material-icons.md-24 { font-size: 24px; } /* Default */
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+
+.rvs-modul{ background-color:transparent;
+  padding: 0px;
+  border: 1px solid #ccc;
+}
+/* Style the header */
+.rvs-map {
+  /*background-color: #f1f1f1;*/
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  /*border:2px solid red;*/
+}
+
+.rvs-flex{
+  display: flex;
+}
+
+/* Container for flexboxes */
+.rvs-row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Create three unequal columns that sits next to each other */
+.rvs-column {
+  padding: 10px;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+
+.rvs-side{ padding-left: 25px;}
+
+/* Left and right column */
+.rvs-column.rvs-side {
+   -webkit-flex: 1;
+   -ms-flex: 1;
+   flex: 1;
+   /*border:2px solid red;*/
+}
+
+/* Middle column */
+.rvs-column.rvs-middle {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  /*border:2px solid red;*/
+}
+
+/* Style the footer */
+.rvs-footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  /*border:2px solid red;*/
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 995px) {
+  .rvs-row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+
+/* Obecné stylování formuláře */
+.rvs-form {
+  max-width: 995px;
+  margin: 0 auto;
+  padding: 20px;
+ /* border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+  background-color: transparent;
+}
+
+/* Stylování prvních dvou polí vedle sebe */
+.rvs-form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.rvs-form-row input[type="text"] {
+  width: 48%;
+  padding: 10px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Stylování ostatních polí */
+.rvs-form input[type="text"],
+.rvs-form input[type="email"],
+.rvs-form input[type="password"],
+.rvs-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Stylování tlačítka */
+.rvs-form-button {
+  padding: 10px 20px;
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  align-self: flex-start;
+}
+
+.rvs-form-button:hover {
+  background-color: #033e5c;
+}
+
+.rvs-error{
+  background-color: rgb(224, 10, 10); 
+  color: #f1f1f1;
+}
+
+.rvs-ok{
+  background-color:#1abc9c;
+  color: #f1f1f1;
+}
+
+/* Responsivita pro menší zařízení */
+@media (max-width: 768px) {
+  .rvs-form-row {
+    flex-direction: column;
+  }
+
+  .rvs-form-row input[type="text"] {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
